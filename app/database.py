@@ -16,7 +16,8 @@ def create_database():
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS employees (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            name TEXT UNIQUE
+            first_name TEXT UNIQUE,
+            last_name TEXT UNIQUE
         )
     ''')
 
@@ -24,10 +25,9 @@ def create_database():
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS clients (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            first_name TEXT,
-            last_name TEXT,
+            name TEXT,
             mail TEXT UNIQUE,
-            phone_number TEXT
+            contact_number TEXT
         )
     ''')
 
