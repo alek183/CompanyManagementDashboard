@@ -6,22 +6,31 @@ def db_connection():
     conn = sqlite3.connect(db)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA foreign_keys = ON;")
+    try:
+        yield conn
+    finally:
+        conn.close()
+
+def get_connection():
+    conn = sqlite3.connect(db)
+    conn.row_factory = sqlite3.Row
+    conn.execute("PRAGMA foreign_keys = ON;")
     return conn
 
 def create_database():
-    conn = db_connection()
+    conn = get_connection()
     cursor = conn.cursor()
 
-    #Employees
+    # Employees
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS employees (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            first_name TEXT UNIQUE,
-            last_name TEXT UNIQUE
+            first_name TEXT,
+            last_name TEXT
         )
     ''')
 
-    #Clients
+    # Clients
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS clients (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -31,7 +40,7 @@ def create_database():
         )
     ''')
 
-    #Tasks
+    # Tasks
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS tasks (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -47,7 +56,7 @@ def create_database():
         )
     ''')
 
-    #Stats
+    # Stats
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS stats (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
