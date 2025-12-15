@@ -9,4 +9,4 @@ create_database()
 
 @app.get("/")
 def root():
-    return {"message": "Server radi"}
+    return {"message": "Up and runnin!"}
