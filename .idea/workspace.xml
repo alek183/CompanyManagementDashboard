@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d1f432a-d439-4df8-9f07-ded0ce896e4d" name="Changes" comment="Commit">
+    <list default="true" id="8d1f432a-d439-4df8-9f07-ded0ce896e4d" name="Changes" comment="CRUD operations functionality (employees)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,11 +98,33 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1765397630458</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="CRUD operations functionality (employees)">
+      <option name="closed" value="true" />
+      <created>1765830024297</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1765830024297</updated>
+    </task>
+    <task id="LOCAL−00006" summary="CRUD operations functionality (employees)">
+      <option name="closed" value="true" />
+      <created>1765832085089</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1765832085089</updated>
+    </task>
+    <task id="LOCAL−00007" summary="CRUD operations functionality (employees)">
+      <option name="closed" value="true" />
+      <created>1765832187199</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1765832187199</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="CRUD operations functionality (employees)" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD operations functionality (employees)" />
   </component>
 </project>

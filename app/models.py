@@ -15,7 +15,7 @@ class Employee(EmployeeBase):
     id: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 #Client models
 
@@ -31,7 +31,7 @@ class Client(ClientBase):
     id: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 #Task models
 
@@ -51,7 +51,7 @@ class Task(TaskBase):
     id: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 
 #Stats models
@@ -71,4 +71,4 @@ class Stats(StatsBase):
     id: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True
