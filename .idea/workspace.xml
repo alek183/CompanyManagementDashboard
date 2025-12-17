@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d1f432a-d439-4df8-9f07-ded0ce896e4d" name="Changes" comment="CRUD operations functionality (employees)">
+    <list default="true" id="8d1f432a-d439-4df8-9f07-ded0ce896e4d" name="Changes" comment="CRUD operations functionality (clients, tasks)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/charts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/dashboard.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,12 +120,20 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1765832187199</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="CRUD operations functionality (clients, tasks)">
+      <option name="closed" value="true" />
+      <created>1765901732136</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1765901732136</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
     <MESSAGE value="CRUD operations functionality (employees)" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD operations functionality (employees)" />
+    <MESSAGE value="CRUD operations functionality (clients, tasks)" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD operations functionality (clients, tasks)" />
   </component>
 </project>
