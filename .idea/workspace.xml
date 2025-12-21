@@ -4,22 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d1f432a-d439-4df8-9f07-ded0ce896e4d" name="Changes" comment="Project layout updated - Streamlit integration">
+    <list default="true" id="8d1f432a-d439-4df8-9f07-ded0ce896e4d" name="Changes" comment="Streamlit skeleton">
+      <change afterPath="$PROJECT_DIR$/streamlit_app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streamlit_app/components/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streamlit_app/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streamlit_app/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streamlit_app/services/client_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streamlit_app/services/clients.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streamlit_app/services/employee_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streamlit_app/services/employees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streamlit_app/services/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streamlit_app/services/tables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streamlit_app/services/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streamlit_app/utils/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/streamlit_app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/components/cards.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/components/cards.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/components/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/components/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/components/tables.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/components/tables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/pages/1_overview.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/pages/1_overview.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/pages/2_tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/pages/2_tasks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/pages/3_employees.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/pages/3_employees.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/pages/4_clients.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/pages/4_clients.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamlit_app/components/cards.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/services/cards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamlit_app/components/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamlit_app/components/tables.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamlit_app/pages/1_overview.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/services/overview.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamlit_app/pages/2_tasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamlit_app/pages/3_employees.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamlit_app/pages/4_clients.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/streamlit_app/services/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/services/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/services/auth_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/services/auth_service.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/streamlit_app/services/task_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/services/task_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/styles/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/utils/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/utils/helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/utils/state.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/utils/state.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -60,14 +68,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\CompanyManagementDashboard\streamlit_app\services" />
+      <recent name="C:\Users\User\PycharmProjects\CompanyManagementDashboard\streamlit_app\pages" />
+      <recent name="C:\Users\User\PycharmProjects\CompanyManagementDashboard\streamlit_app" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -147,7 +162,14 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1766001989650</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="Streamlit skeleton">
+      <option name="closed" value="true" />
+      <created>1766166242511</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1766166242511</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -155,6 +177,7 @@
     <MESSAGE value="CRUD operations functionality (employees)" />
     <MESSAGE value="CRUD operations functionality (clients, tasks)" />
     <MESSAGE value="Project layout updated - Streamlit integration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project layout updated - Streamlit integration" />
+    <MESSAGE value="Streamlit skeleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="Streamlit skeleton" />
   </component>
 </project>
