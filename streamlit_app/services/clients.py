@@ -3,7 +3,7 @@ from .tables import clients_table
 from .forms import client_create_form
 
 def app():
-    st.title("Clients")
+    st.title("💼 Clients")
     clients_table()
     st.divider()
     client_create_form()

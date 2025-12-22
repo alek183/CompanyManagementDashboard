@@ -4,30 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d1f432a-d439-4df8-9f07-ded0ce896e4d" name="Changes" comment="Streamlit skeleton">
-      <change afterPath="$PROJECT_DIR$/streamlit_app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streamlit_app/components/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streamlit_app/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streamlit_app/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streamlit_app/services/client_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streamlit_app/services/clients.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streamlit_app/services/employee_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streamlit_app/services/employees.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streamlit_app/services/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streamlit_app/services/tables.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streamlit_app/services/tasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streamlit_app/utils/__init__.py" afterDir="false" />
+    <list default="true" id="8d1f432a-d439-4df8-9f07-ded0ce896e4d" name="Changes" comment="Streamlit CRUD functionality (just create and read for now)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/components/cards.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/services/cards.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/components/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/components/tables.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/pages/1_overview.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/services/overview.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/pages/2_tasks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/pages/3_employees.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/pages/4_clients.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/services/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/services/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/services/task_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/services/task_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamlit_app/services/clients.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/services/clients.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamlit_app/services/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/services/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamlit_app/services/overview.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/services/overview.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamlit_app/services/tables.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/services/tables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamlit_app/services/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/services/tasks.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +152,14 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1766166242511</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="Streamlit CRUD functionality (just create and read for now)">
+      <option name="closed" value="true" />
+      <created>1766350010286</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1766350010286</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,6 +168,7 @@
     <MESSAGE value="CRUD operations functionality (clients, tasks)" />
     <MESSAGE value="Project layout updated - Streamlit integration" />
     <MESSAGE value="Streamlit skeleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="Streamlit skeleton" />
+    <MESSAGE value="Streamlit CRUD functionality (just create and read for now)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Streamlit CRUD functionality (just create and read for now)" />
   </component>
 </project>
